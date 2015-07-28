@@ -129,6 +129,7 @@ foreach my $s_file (@a_files)
 	}
 	close($s_filehandler);
 	print $tb;
+	@a_old_ips = undef;
 	$tb->clear();
 	print "\n";
 }
